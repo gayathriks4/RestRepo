@@ -6,6 +6,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.web.client.RestTemplate;
 
+import lombok.var;
+
 @SpringBootApplication
 public class ResttemplateApplication {
 
