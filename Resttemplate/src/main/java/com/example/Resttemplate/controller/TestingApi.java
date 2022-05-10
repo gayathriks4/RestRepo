@@ -106,7 +106,7 @@ public class TestingApi {
 		    System.out.println("Request Successful");
 		    System.out.println(response.getBody());
 		} else {
-		    System.out.println("Request Failed");
+		    System.out.println("Request Failed due to");
 		    System.out.println(response.getStatusCode());
 		}
 		return response;
